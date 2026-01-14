@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+    border:border-box;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    height: 60px;
+    background: #0F1111;
+    flex-shrink:0; 
+    text-decoration:none;
+}
+a{
+    text-decoration:none;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("/Amazon-logo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-left:10px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1px solid white;
+}
+.nav-address{
+    height:58px;
+    width:80px;
+    display:flexbox;
+    align-content: center;
+    padding-left:10px;
+    padding-right:10px;
+}
+.add-first{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second {
+    font-size: 1rem;
+    margin-left:3px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+    color:white;
+}
+.nav-search{
+    display: flex;
+    height:36px;
+    flex: 1;
+    max-width:1000px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.nav-search:hover{
+    border: 2px solid #ff9100f1;
+    border-radius:5px;
+}
+.nav-search-bar{
+    padding:10px;
+    flex:1;
+}
+
+.search-icon{
+    width:36px;
+    height:36px;
+    background-color: #f3a847;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-select{
+    height:35px;
+    border:none;
+    width:36px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.nav-account{
+    height:58px;
+    color:white;
+    display:flexbox;
+    align-content:center;
+    padding-left:10px;
+    padding-right:10px;
+}
+.nav-acc-top{
+    font-size:0.85rem;
+}
+.nav-acc-bottom{
+    font-weight:bold;
+}
+.nav-orders{
+     height:58px;
+    color:white;
+    display:flexbox;
+    align-content:center;
+    padding-left:10px;
+    padding-right:10px;
+}
+.nav-cart{
+    color:white;
+    display:flex;
+    margin-right:10px;
+    align-items: center;
+}
+.nav-cart i{
+    font-size:36px;
+}
+.navbar2{
+    height:36px;
+    background-color: #232f3e;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.nav2{
+    height:34px;
+    color:white;
+    align-content: center;
+}
+.hero-section{
+    height:600px;
+    background-image: url("/BG.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
